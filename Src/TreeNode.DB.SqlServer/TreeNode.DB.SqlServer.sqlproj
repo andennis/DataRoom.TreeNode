@@ -71,4 +71,7 @@
   <ItemGroup>
     <Build Include="Schema\trnd.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="TreeNode.DB.test.publish.xml" />
+  </ItemGroup>
 </Project>
