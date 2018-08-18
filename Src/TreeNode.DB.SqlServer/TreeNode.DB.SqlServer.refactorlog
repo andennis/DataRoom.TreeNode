@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6e5a0b47-4d7a-4f36-8c83-f20f4d1d08eb" ChangeDateTime="08/18/2018 15:38:32">
+    <Property Name="ElementName" Value="[trnd].[PK_NodeBase]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[trnd].[Node]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PK_Node]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="86f307e7-31e1-45dd-afeb-88816b4303f2" ChangeDateTime="08/18/2018 15:38:55">
+    <Property Name="ElementName" Value="[trnd].[FK_Node_ParentNode]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[trnd].[Node]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Node_Parent]" />
+  </Operation>
+</Operations>

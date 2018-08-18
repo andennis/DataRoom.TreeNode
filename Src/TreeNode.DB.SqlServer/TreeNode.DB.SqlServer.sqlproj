@@ -67,11 +67,18 @@
     <Build Include="Tables\trnd.Node.sql" />
     <Build Include="Tables\trnd.NodeFile.sql" />
     <Build Include="Tables\trnd.NodeProperty.sql" />
+    <Build Include="Tables\trnd.NodeHistory.sql" />
+    <Build Include="Tables\trnd.NodeFileHistory.sql" />
+    <Build Include="Tables\trnd.NodePropertyHistory.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\trnd.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="TreeNode.DB.test.publish.xml" />
+    <None Include="TreeNode.DB.local.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="TreeNode.DB.SqlServer.refactorlog" />
   </ItemGroup>
 </Project>
